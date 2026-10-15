@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WorldDesigner/World of Niiiko/World of Niiiko.md",
+                "file": "WorldDesigner/World of human/Characters/Mai.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "World of Niiiko"
+              "title": "Mai"
             }
           }
         ],
@@ -217,13 +217,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "9faf3ed7ffdc6d71",
+  "active": "6bcaad8933c06c56",
   "lastOpenFiles": [
+    "WorldDesigner/World of Niiiko/Chaaracters/Lily.md",
+    "WorldDesigner/World of Niiiko/Chaaracters/Tania.md",
+    "WorldDesigner/World of Niiiko/Chaaracters/Tonicat Felidae (The cat).md",
+    "WorldDesigner/World of human/Characters/Mai.md",
+    "WorldDesigner/World of Niiiko/Chaaracters",
+    "WorldDesigner/World of human/World of human.md",
+    "WorldDesigner/World of human/Characters",
+    "WorldDesigner/World of Niiiko/World of Niiiko.md",
+    "WorldDesigner/World of human",
     "WorldDesigner/Human World",
     "WorldDesigner/World of Niiiko",
     "WorldDesigner/World of Niiiko/Character",
     "Untitled.md",
-    "WorldDesigner/World of Niiiko/World of Niiiko.md",
     "GameDesigner/About Game Design.md",
     "GameDesigner/Mobile game/Neko Seek.md",
     "GameDesigner/Mobile game/Castle.md",
