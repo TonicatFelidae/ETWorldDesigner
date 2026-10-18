@@ -151,8 +151,38 @@
 - **Trigger Timing & Conditions:** |this is for when the rating prompt appears (e.g., after first high-rarity unlock or Nth completed cycle)
 - **Frequency & Cooldown Rules:** |this is for limits on how often the prompt can appear and suppression rules if dismissed
 - **UI Flow:** |this is for pre-prompt satisfaction check vs. native OS store review dialog (App Store / Google Play)
-### (11) FAQ, tutorial, inbox, settings
-|this is for standard system UI requirements, onboarding tutorial steps, player support FAQ, inbox, and settings
+### (11) FAQ
+|this is for in-game help center, frequently asked questions, and player support access
+
+- **Access Point:** |this is for where the FAQ button is located (e.g., Settings menu, top bar)
+- **Display Method:** |this is for whether FAQ opens an in-game popup list or an external webview URL
+- **Question Categories & Content:** |this is for list of common player questions (gameplay rules, point exchange, account recovery, troubleshooting)
+- **Contact / Support Link:** |this is for customer support email or inquiry form link
+
+### (12) Tutorial
+|this is for onboarding flow and first-time user experience (FTUE)
+
+- **Trigger Condition:** |this is for when tutorials trigger (e.g., first launch, first time unlocking a feature)
+- **Tutorial Type:** |this is for forced step-by-step hand-holding vs. non-intrusive contextual tooltips or help slides
+- **Step-by-Step Flow:**
+  - **Step 1:** |this is for initial onboarding action
+  - **Step 2:** |this is for core loop demonstration
+  - **Step 3:** |this is for reward claim / completion of tutorial
+- **Skip / Replay Rules:** |this is for whether players can skip the tutorial or re-read tutorial slides later
+
+### (13) Inbox
+|this is for in-game mailbox system for announcements, compensation, and reward distribution
+
+- **Message Types:** |this is for system notices, maintenance compensation, event rewards, and gift codes
+- **UI & Actions:** |this is for reading messages, claiming attached rewards, "Claim All", and "Delete Read" buttons
+- **Expiration & Storage Limits:** |this is for maximum message capacity and auto-deletion timer (e.g., 30 days)
+
+### (14) Settings
+|this is for game configuration, audio controls, and legal/account options
+
+- **Audio Controls:** |this is for BGM volume slider/toggle and SFX volume slider/toggle
+- **System / Preferences:** |this is for language selection, push notification toggle, vibration/haptics, and graphics quality
+- **Account & Legal Links:** |this is for User ID display (with copy button), Terms of Service, Privacy Policy, Credit screen, and Delete Account / Restore Purchase buttons
 
 ---
 
@@ -257,7 +287,26 @@
 | **48 Hours** | this is for 48-hour notification title | this is for 48-hour notification message body |
 |              |                                        |                                               |
 ### (2) Asset Dilivery by Addressable
-## (3) Multiple Input Intergrate
+|this is for Unity Addressables configuration, asset bundling strategy, and remote/local content delivery
+
+- **Addressable Groups Strategy:**
+  - **Local Built-in Groups:** |this is for core assets bundled inside the initial app install (e.g., startup UI, tutorial assets)
+  - **Remote Downloadable Groups:** |this is for heavy or live-updated assets hosted on CDN (e.g., high-tier creatures, additional stages, audio packs)
+- **Download & Preload Flow:** |this is for when downloads occur (title screen loading bar vs. background on-demand loading) and Wi-Fi prompt threshold
+- **Memory & Cache Management:** |this is for asset loading/unloading lifecycle (`Release` rules) and local cache clearing option
+- **Fallback & Error Handling:** |this is for retry popup behavior on network failure and fallback placeholder assets
+
+### (3) Multiple Input Intergrate
+|this is for cross-platform input support and control scheme mapping (e.g., Unity New Input System)
+
+| Input Device | Supported Platform | Primary Actions Mapping | UI Navigation Behavior |
+| :--- | :--- | :--- | :--- |
+| **Touchscreen** |this is for Mobile (iOS / Android) |this is for tap, hold, swipe, pinch gestures |this is for direct touch interaction |
+| **Mouse & Keyboard** |this is for PC / Web / Emulator |this is for click, hotkeys, scroll wheel |this is for cursor hover and shortcut keys |
+| **Controller / Gamepad** |this is for Console / PC / Mobile |this is for face buttons, triggers, analog sticks |this is for D-pad / stick focus snapping and button prompts |
+
+- **Dynamic Input Switching:** |this is for how UI prompts and cursor visibility update automatically when switching between touch, mouse, and controller
+- **Input Rebinding / Accessibility:** |this is for custom keybinding support and input sensitivity settings
 
 ---
 ## Appliacation Control and Maintainance
@@ -268,5 +317,17 @@
 - **Current Tracking Capabilities:**
   - **User / Device ID Retrieval:** |this is for how ADID / user identifiers are retrieved and saved locally
   - **Revenue & Event Tracking:** |this is for impression-level ad revenue tracking, IAP validation, and key funnel events
-### (2) Remote control (option)
 
+### (2) Remote control (option)
+|this is for remote configuration, live-ops parameter tuning, and version/maintenance enforcement (e.g., Firebase Remote Config, Unity Remote Config)
+
+- **App Version & Maintenance Control:**
+  - **Force Update:** |this is for minimum required client version check and store redirect popup
+  - **Maintenance Mode:** |this is for remote kill-switch / maintenance banner with scheduled end time and whitelist test IDs
+- **Feature Flags & Live Balancing:** |this is for toggling features remotely (e.g., enabling/disabling specific ad placements, shop providers, or events without an app update)
+
+| Remote Key | Data Type | Default Value | Description / Usage |
+| :--- | :--- | :--- | :--- |
+| **`maintenance_mode`** |this is for Boolean |this is for default state (e.g., false) |this is for locking game access during server maintenance |
+| **`min_required_version`** |this is for String |this is for version string (e.g., 1.0.0) |this is for triggering mandatory store update popup |
+| **`reward_multiplier`** |this is for Float / Int |this is for default multiplier (e.g., 1.0) |this is for live-tuning economy or event rates remotely |
