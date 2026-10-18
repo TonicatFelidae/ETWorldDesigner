@@ -41,28 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GameDesigner/PC Game/Forever Alone.md",
+                "file": "GameDesigner/Mobile game/Sample/SampleGDD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Forever Alone"
-            }
-          },
-          {
-            "id": "c79e1489edf43060",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "GameDesigner/PC Game/Image ref/832679235_28360159527009379_8766713213093379945_n.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "832679235_28360159527009379_8766713213093379945_n"
+              "title": "SampleGDD"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -229,36 +217,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "9faf3ed7ffdc6d71",
+  "active": "6bcaad8933c06c56",
   "lastOpenFiles": [
-    "GameDesigner/PC Game/Image ref/3D Asset.jpg",
-    "GameDesigner/PC Game/Image ref/At Mai Room.jpg",
-    "GameDesigner/PC Game/Image ref/At The Hidden Forrest.jpg",
+    "GameDesigner/Mobile game/Neko Seek.md",
+    "GameDesigner/Mobile game/Sample/SampleGDD.md",
+    "GameDesigner/Mobile game/Sample/Idle birth GDD (ver 1.8).docx",
+    "GameDesigner/Mobile game/Sample",
+    "GameDesigner/Sample",
+    "GameDesigner/untitled folder",
+    "GameDesigner/Mobile game/Castle.md",
     "GameDesigner/PC Game/Forever Alone.md",
-    "GameDesigner/PC Game/Forever alone story and plot.md",
     "GameDesigner/PC Game/Forever Alone World Builder.md",
-    "GameDesigner/PC Game/Image ref/832679235_28360159527009379_8766713213093379945_n.jpg",
-    "WorldDesigner/World of human/Characters/Mai.md",
-    "GameDesigner/PC Game/Image ref",
-    "GameDesigner/PC Game/New folder",
-    "GameDesigner/PC Game",
-    "WorldDesigner/World of Niiiko/Characters/Lily.md",
+    "GameDesigner/PC Game/Forever alone story and plot.md",
+    "GameDesigner/About Game Design.md",
+    "WorldDesigner/World of Niiiko/World of Niiiko.md",
+    "README.md",
     "WorldDesigner/World of Niiiko/Characters/Tania.md",
     "WorldDesigner/World of Niiiko/Characters/Tonicat Felidae (The cat).md",
-    "WorldDesigner/World of Niiiko/World of Niiiko.md",
+    "WorldDesigner/World of Niiiko/Characters/Lily.md",
     "WorldDesigner/World of human/World of human.md",
+    "WorldDesigner/World of human/Characters/Mai.md",
+    "WorldDesigner/World of Niiiko/Characters",
+    "GameDesigner/PC Game/Image ref/At The Hidden Forrest.jpg",
+    "GameDesigner/PC Game/Image ref/At Mai Room.jpg",
+    "GameDesigner/PC Game/Image ref/832679235_28360159527009379_8766713213093379945_n.jpg",
+    "GameDesigner/PC Game/Image ref/3D Asset.jpg",
+    "GameDesigner/PC Game/Image ref",
+    "GameDesigner/PC Game",
+    "WorldDesigner/World of Niiiko/Chaaracters/Lily.md",
+    "WorldDesigner/World of Niiiko/Chaaracters/Tania.md",
+    "WorldDesigner/World of Niiiko/Chaaracters/Tonicat Felidae (The cat).md",
+    "WorldDesigner/World of Niiiko/Chaaracters",
     "WorldDesigner/World of human/Characters",
     "WorldDesigner/World of human",
-    "WorldDesigner/World of Niiiko/Characters",
-    "WorldDesigner/Human World",
-    "WorldDesigner/World of Niiiko",
-    "WorldDesigner/World of Niiiko/Character",
     "Untitled.md",
-    "GameDesigner/About Game Design.md",
-    "GameDesigner/Mobile game/Neko Seek.md",
-    "GameDesigner/Mobile game/Castle.md",
-    "Untitled",
-    "README.md",
     "GameDesigner/Mobile game/Untitled.md"
   ]
 }
