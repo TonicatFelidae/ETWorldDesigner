@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GameDesigner/Mobile game/Sample/SampleGDD.md",
+                "file": "GameDesigner/Mobile game/Neko Seek.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SampleGDD"
+              "title": "Neko Seek"
+            }
+          },
+          {
+            "id": "905368c2c0a07282",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GameDesigner/Mobile game/Draw protect cat game.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Draw protect cat game"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -217,15 +231,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "6bcaad8933c06c56",
+  "active": "9faf3ed7ffdc6d71",
   "lastOpenFiles": [
     "GameDesigner/Mobile game/Neko Seek.md",
+    "GameDesigner/Mobile game/Draw protect cat game.md",
+    "GameDesigner/Mobile game/Castle.md",
     "GameDesigner/Mobile game/Sample/SampleGDD.md",
     "GameDesigner/Mobile game/Sample/Idle birth GDD (ver 1.8).docx",
     "GameDesigner/Mobile game/Sample",
     "GameDesigner/Sample",
     "GameDesigner/untitled folder",
-    "GameDesigner/Mobile game/Castle.md",
     "GameDesigner/PC Game/Forever Alone.md",
     "GameDesigner/PC Game/Forever Alone World Builder.md",
     "GameDesigner/PC Game/Forever alone story and plot.md",
