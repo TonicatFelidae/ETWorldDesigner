@@ -259,10 +259,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "9faf3ed7ffdc6d71",
+  "active": "2c63455b53a4b606",
   "lastOpenFiles": [
-    "WorldDesigner/World of Niiiko/Characters/Ethan.md",
+    "GameDesigner/PC Game/Niiikotopia Human/Niiikotopia Human Plot.md",
+    "GameDesigner/PC Game/Niiikotopia Human/Niiikotopia Human GDD.md",
+    "GameDesigner/PC Game/Niiikotopia Human/Niiikotopia Human Gameplay.md",
+    "GameDesigner/PC Game/Niiikotopia Human/Niiikotopia Human Characters.md",
     "GameDesigner/PC Game/Niiikotopia Human/Niiikotopia Human Raw Design.md",
+    "GameDesigner/PC Game/Niiikotopia Human/Niiikotopia Human World & Lore.md",
+    "WorldDesigner/World of Niiiko/Characters/Ethan.md",
     "GameDesigner/PC Game/Niiikotopia Human",
     "WorldDesigner/World of Niiiko/Characters/Lily.md",
     "GameDesigner/Mobile game/Draw to protect cat game/Draw to protect cat game.md",
@@ -295,7 +300,6 @@
     "WorldDesigner/World of Niiiko/Chaaracters/Tania.md",
     "WorldDesigner/World of Niiiko/Chaaracters/Tonicat Felidae (The cat).md",
     "WorldDesigner/World of Niiiko/Chaaracters",
-    "Untitled.md",
-    "GameDesigner/Mobile game/Untitled.md"
+    "Untitled.md"
   ]
 }
