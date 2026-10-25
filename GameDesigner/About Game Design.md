@@ -261,3 +261,4 @@ When authoring new game projects in `GameDesigner/`, use the following standardi
   * [[RTS]] — Grand continental warfare & macro-economies
   * [[RPG_Tactics]] — Character progression & dungeon crawls
   * [[Mobile game/Neko Seek]] — Casual seek-and-find prototype
+  * [[PC Game/Forever Alone About]] — Psychological horror & reality-swap adventure

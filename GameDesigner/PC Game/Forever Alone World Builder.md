@@ -1,3 +1,15 @@
+# Forever Alone: World Builder
+
+#game-design, #pc-game, #level-design, #environment, #diorama
+
+## References
+* [[PC Game/Forever Alone About]] — Core game concept, selling points, and artistic pillars
+* [[World of human/Characters/Mai]] — Protagonist profile and emotional anchor
+* [[PC Game/Forever alone story and plot]] — Narrative beats mapped to these locations
+* [[World of human/World of human]] — Ordinary human world baseline
+
+---
+
 World builder: around her daily life area with simple 3D chi style. Area may be only her room, bath room, living room, nearby market, her school, the lonely park, the garden with empty dog house.
 ### 1. The Domestic Core (The House & Garden)
 

@@ -41,24 +41,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GameDesigner/PC Game/Forever Alone.md",
+                "file": "GameDesigner/PC Game/Forever Alone About.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Forever Alone"
+              "title": "Forever Alone About"
             }
           },
           {
             "id": "c79e1489edf43060",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "GameDesigner/PC Game/Image ref/832679235_28360159527009379_8766713213093379945_n.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "832679235_28360159527009379_8766713213093379945_n"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -231,13 +229,15 @@
   },
   "active": "9faf3ed7ffdc6d71",
   "lastOpenFiles": [
-    "GameDesigner/PC Game/Image ref/3D Asset.jpg",
-    "GameDesigner/PC Game/Image ref/At Mai Room.jpg",
-    "GameDesigner/PC Game/Image ref/At The Hidden Forrest.jpg",
-    "GameDesigner/PC Game/Forever Alone.md",
     "GameDesigner/PC Game/Forever alone story and plot.md",
+    "GameDesigner/PC Game/Forever Alone About.md",
+    "GameDesigner/PC Game/Image ref/At Mai Room.jpg",
+    "GameDesigner/About Game Design.md",
+    "GameDesigner/Mobile game/Neko Seek.md",
     "GameDesigner/PC Game/Forever Alone World Builder.md",
     "GameDesigner/PC Game/Image ref/832679235_28360159527009379_8766713213093379945_n.jpg",
+    "GameDesigner/PC Game/Image ref/3D Asset.jpg",
+    "GameDesigner/PC Game/Image ref/At The Hidden Forrest.jpg",
     "WorldDesigner/World of human/Characters/Mai.md",
     "GameDesigner/PC Game/Image ref",
     "GameDesigner/PC Game/New folder",
@@ -254,8 +254,6 @@
     "WorldDesigner/World of Niiiko",
     "WorldDesigner/World of Niiiko/Character",
     "Untitled.md",
-    "GameDesigner/About Game Design.md",
-    "GameDesigner/Mobile game/Neko Seek.md",
     "GameDesigner/Mobile game/Castle.md",
     "Untitled",
     "README.md",
