@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GameDesigner/Mobile game/Sample/SampleGDD.md",
+                "file": "GameDesigner/Mobile game/Niiiko vs Human/Niiiko vs Human GDD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SampleGDD"
+              "title": "Niiiko vs Human GDD"
             }
           },
           {
@@ -232,6 +232,12 @@
   },
   "active": "638f47e4201abd2c",
   "lastOpenFiles": [
+    "GameDesigner/Mobile game/Niiiko vs Human/Raw GDD.md",
+    "GameDesigner/Mobile game/Niiiko vs Human/Niiiko vs Human GDD.md",
+    "GameDesigner/Mobile game/Sample/SampleGDD.md",
+    "GameDesigner/About Game Design.md",
+    "GameDesigner/Mobile game/Neko Seek.md",
+    "GameDesigner/Mobile game/Niiiko vs Human",
     "GameDesigner/Mobile game/Draw to protect cat game/Draw to protect cat game.md",
     "GameDesigner/PC Game/Niiikotopia Human/Niiikotopia Human Plot.md",
     "GameDesigner/PC Game/Niiikotopia Human/Niiikotopia Human Characters.md",
@@ -252,12 +258,9 @@
     "GameDesigner/PC Game/Niiikotopia Human/Niiikotopia Human Raw Design.md",
     "GameDesigner/PC Game/Niiikotopia Human/Niiikotopia Human GDD.md",
     "GameDesigner/PC Game/Niiikotopia Human",
-    "GameDesigner/Mobile game/Sample/SampleGDD.md",
     "GameDesigner/Mobile game/Sample/Idle birth GDD (ver 1.8).docx",
     "GameDesigner/Mobile game/Sample",
     "GameDesigner/Mobile game/Draw to protect cat game",
-    "GameDesigner/About Game Design.md",
-    "GameDesigner/Mobile game/Neko Seek.md",
     "GameDesigner/PC Game/Forever Alone World Builder.md",
     "GameDesigner/PC Game/Image ref/832679235_28360159527009379_8766713213093379945_n.jpg",
     "GameDesigner/PC Game/Image ref/3D Asset.jpg",
@@ -269,9 +272,7 @@
     "WorldDesigner/World of human/World of human.md",
     "WorldDesigner/World of human/Characters",
     "WorldDesigner/World of human",
-    "WorldDesigner/World of Niiiko/Characters",
     "Untitled.md",
-    "README.md",
-    "GameDesigner/Mobile game/Untitled.md"
+    "README.md"
   ]
 }

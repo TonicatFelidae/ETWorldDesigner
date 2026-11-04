@@ -8,23 +8,23 @@
 
 ## Game Concept
 
-| Concept | Value |
-| :--- | :--- |
-| **Title** |this is for game title |
-| **Subtitle** |this is for game subtitle |
-| **Description** |this is for game long description |
-| **Genre** |this is for game genre (e.g., Idle, Puzzle, Point activity, Casual) |
-| **Theme** |this is for overall theme and mood (e.g., Cute, chill, dark fantasy) |
-| **Setting** |this is for world or environment setting where the game takes place |
-| **Player Role** |this is for who or what the player plays as |
-| **Core Gameplay** |this is for the main action the player performs |
-| **Objective** |this is for the primary goal of the player |
-| **Progression** |this is for how the player advances through the game |
-| **Unique Selling Point** |this is for what makes the game stand out from competitors |
-| **Art Style** |this is for visual style (e.g., Chibi, 2D pixel, 3D stylized) |
-| **Audio (BGM/SFX)** |this is for background music mood and sound effect direction |
-| **Target Audience** |this is for target demographic (gender, age range, player type) |
-| **Platform** |this is for target platforms (e.g., Android, iOS) |
+| Concept                  | Value                                                                |
+| :----------------------- | :------------------------------------------------------------------- |
+| **Title**                | this is for game title                                               |
+| **Subtitle**             | this is for game subtitle                                            |
+| **Description**          | this is for game long description                                    |
+| **Genre**                | this is for game genre (e.g., Idle, Puzzle, Point activity, Casual)  |
+| **Theme**                | this is for overall theme and mood (e.g., Cute, chill, dark fantasy) |
+| **Setting**              | this is for world or environment setting where the game takes place  |
+| **Player Role**          | this is for who or what the player plays as                          |
+| **Core Gameplay**        | this is for the main action the player performs                      |
+| **Objective**            | this is for the primary goal of the player                           |
+| **Progression**          | this is for how the player advances through the game                 |
+| **Unique Selling Point** | this is for what makes the game stand out from competitors           |
+| **Art Style**            | this is for visual style (e.g., Chibi, 2D pixel, 3D stylized)        |
+| **Audio (BGM/SFX)**      | this is for background music mood and sound effect direction         |
+| **Target Audience**      | this is for target demographic (gender, age range, player type)      |
+| **Platform**             | this is for target platforms (e.g., Android, iOS)                    |
 
 ---
 
