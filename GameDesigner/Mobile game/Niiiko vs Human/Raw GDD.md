@@ -61,19 +61,29 @@ Frustrated by human inefficiency, greed, and general weirdness, the Niiiko race 
 
 ```
 [World Map / Stage Selection]
-           │
+           │ (Spends 10 Energy [Main Menu])
            ▼
-[Lane Battle: Manage Funds & Spawn Units] ──► [Deploy Super Weapon / Cannon]
+[Lane Battle: Push Frontline ──► Reveal Ghost Build Slots (+)]
+           │                              │ (Pay Coins to Claim Slabs)
+           │                              ▼
+           │                     [Construct Buildings: Cannery / Mound / Lab]
+           │                              │ (Acts as Forward Rally Point)
+           ▼                              ▼
+[Summon Niiiko Units with Food] ◄─────────┘
+           │
+           ├──► [Defend Supply Chain Against Advancing Humans]
+           │
+           ├──► [Deploy Particle Blaster (Cat Coins)]
            │
            ▼
     [Victory / Defeat]
            │
      ┌─────┴────────────────────────┐
      ▼                              ▼
-[Earn Coins & Fish Treats]   [Defeat: Watch Ad / Retry]
+[Earn EXP & Relics]          [Defeat: Watch Ad / Retry]
      │
      ▼
-[Upgrade Niiiko Roster & Base Cannon Stats]
+[Main Menu: Spend EXP to Unlock New Cats]
      │
      ▼
 [Unlock Next Global Region / Relic Buff]
@@ -85,11 +95,13 @@ Frustrated by human inefficiency, greed, and general weirdness, the Niiiko race 
     
       
     
-- **Energy / Money Generation:** An automatic resource meter (_Catnip Cash / Money_) ticks upward in real time.
+- **In-Battle Resources (Food & Cat Coins):**
+    - **0: Food (Fish Can):** An automatic resource meter ticks upward in real time. Food is used exclusively in-battle to buy and summon units.
+    - **1: Coin (Cat Coin):** Dropped during combat by damaging and defeating human enemies. Cat Coins are used exclusively in-battle to upgrade the Worker Production Gauge (increasing Food generation speed and capacity) and to activate/power in-battle weapons.
     
       
     
-- **Unit Summoning:** Tapping an available unit icon on the deployment deck spends the required cash and spawns that unit, which marches rightward toward the human base.
+- **Unit Summoning:** Tapping an available unit icon on the deployment deck spends the required **Food (Fish Cans)** and spawns that unit, which marches rightward toward the human base.
     
       
     
@@ -101,7 +113,7 @@ Frustrated by human inefficiency, greed, and general weirdness, the Niiiko race 
     
       
     
-- **Base Super Weapon (Niiiko Particle Blaster):** A rechargable manual skill with a long cooldown that sweeps the entire screen or an area-of-effect (AoE) zone to clear swarms or knock back advancing bosses.
+- **Base Super Weapon (Niiiko Particle Blaster):** A rechargeable in-battle weapon powered by **Coins (Cat Coins)** that sweeps the entire screen or an area-of-effect (AoE) zone to clear swarms or knock back advancing bosses.
     
       
     
@@ -117,17 +129,36 @@ Frustrated by human inefficiency, greed, and general weirdness, the Niiiko race 
           
         
 
+### 3.2 Progressive Territory Expansion (Slot System)
+
+*(Visual Reference: [Demo Map.png](Demo%20Map.png))*
+
+![Demo Map: Territory Expansion & Battlefield HUD](Demo%20Map.png)
+
+Unlike *The Battle Cats*, the battlefield is an active, conquerable supply territory:
+
+1. **The Core Mechanic:** Players start with only their Main Base (left) and 0 forward build slots. As Niiiko combatants push enemies backward across the lane, a ghost outline with a glowing yellow `+` indicator is revealed.
+2. **Claiming Slabs:** Pay a scaling Coin cost to establish a paved grey foundation slab. Slots must be unlocked in sequence from left to right.
+3. **Building Construction:** Tapping an open slab allows the real-time choice of constructing:
+   - **Fish Cannery:** Boosts passive Food income (`+X Food/sec`). Focus here to spam huge swarms.
+   - **Fortified Barricade (Mound):** High-health roadblock that passively attacks back or serves as a physical chokepoint to protect previous investments.
+   - **Research Lab:** Boosts Coin production (`+Y Coins/wave`) or unlocks battlefield-wide damage modifiers.
+4. **Hazard Level: Protecting Your Supply Chain:**
+   - **High Risk / High Reward:** Unlike *The Battle Cats*, the backline is no longer invulnerable. If human attackers overwhelm your defense line, they will stop and attack your economic buildings.
+   - **Destruction & Reclamation:** If a building's HP is reduced to 0, it is destroyed, removing your resource boost. The slot becomes an "Empty Ruin" that you must pay to reclaim and rebuild once the line is re-secured.
+   - **Aggressive Advantage:** Expanding forward reduces the deploy-to-fight distance, acting as a forward rally point. You must aggressively protect this frontline to prevent economic collapse.
+
 ## 4. Unit Design & Rosters
 
 ### 4.1 Niiiko Units (Player Army)
 
-|**Unit Name**|**Role**|**Cost**|**Speed**|**Attack Type**|**Special Trait / Mechanic**|
+|**Unit Name**|**Role**|**Food Cost**|**Speed**|**Attack Type**|**Special Trait / Mechanic**|
 |---|---|---|---|---|---|
-|**Lab-Coat Niiiko**|Meatshield / Swarm|50|Fast|Single Target (Melee Wrench)|Low cooldown, cheap cost; stalls high-damage human attackers.|
-|**Toolbox Niiiko**|Tank|120|Moderate|Single Target (Heavy Hammer)|High HP; resists initial knockbacks from human charges.|
-|**Beaker Niiiko**|Ranged DPS|220|Slow|AoE (Splash Acid Vial)|Throws bubbling beakers from safe distance; counters dense swarms.|
-|**Long-Leg Niiiko**|Single-Target Sniper|450|Moderate|Long Range (Laser Pointer)|Massive burst damage against high-HP human tank units.|
-|**Mech-Suit Niiiko**|Uber Boss / Finisher|950|Slow|Heavy AoE (Piston Slam)|Massive health, high damage, ground-slam knocks enemies backward.|
+|**Lab-Coat Niiiko**|Meatshield / Swarm|50 Food|Fast|Single Target (Melee Wrench)|Low cooldown, cheap cost; stalls high-damage human attackers.|
+|**Toolbox Niiiko**|Tank|120 Food|Moderate|Single Target (Heavy Hammer)|High HP; resists initial knockbacks from human charges.|
+|**Beaker Niiiko**|Ranged AoE / Splash Damage|220 Food|Slow|AoE (Splash Acid Vial)|Throws bubbling beakers from safe distance; counters dense swarms.|
+|**Long-Leg Niiiko**|Single-Target Sniper|450 Food|Moderate|Long Range (Laser Pointer)|Massive burst damage against high-HP human tank units.|
+|**Mech-Suit Niiiko**|Uber Boss / Finisher|950 Food|Slow|Heavy AoE (Piston Slam)|Massive health, high damage, ground-slam knocks enemies backward.|
 
 ### 4.2 Human Enemies (Opponents)
 
@@ -148,25 +179,28 @@ To validate the game quickly, Chapter 1 launches with 15 focused stages across 3
 |**Region**|**Stages**|**Environment & Thematic Gimmick**|**Completion Relic Reward**|
 |---|---|---|---|
 |**Vietnam**|Stages 1–5|Old town alleyways, motorcycle rushers, street-cart barricades.|_Drip Coffee:_ +10% Unit Movement Speed across all units.|
-|**Thailand**|Stages 6–10|Night markets, neon tuk-tuks, street vendor shielders.|_Golden Spices:_ +10% Money Generation speed.|
-|**Singapore**|Stages 11–15|Futuristic high-rise CBD, security drones, high-tech boss barricades.|_Transit Card:_ -8% Deploy Cost on all units.|
+|**Thailand**|Stages 6–10|Night markets, neon tuk-tuks, street vendor shielders.|_Golden Spices:_ +10% Food Generation speed.|
+|**Singapore**|Stages 11–15|Futuristic high-rise CBD, security drones, high-tech boss barricades.|_Transit Card:_ -8% Food Deploy Cost on all units.|
 
 ## 6. Economy, Progression & Monetization
 
 ### 6.1 Currencies
 
-- **Catnip Cash (Soft Currency 1 - In-Battle):** Generated during matches to deploy units and upgrade the in-match money production rate.
+The game features four strictly partitioned currencies across two operational contexts:
+
+- **0: Food (Fish Can) [In-Battle Only]:** Used solely in battle to buy and deploy Niiiko units onto the lane. Automatically accumulates in real time based on the active Worker Production Level.
     
       
     
-- **Fish Treats / Coins (Soft Currency 2 - Meta):** Awarded from stage completions; used to level up unit base stats (HP, Attack) and laboratory features (Max Base HP, Cannon Recharge Rate).
+- **1: Coin (Cat Coin) [In-Battle Only]:** Used solely in battle to upgrade the Worker Production Gauge (increasing Food tick rate and max storage cap) and to power/fire in-battle weapons (Niiiko Particle Blaster). Earned during combat from defeating human enemies.
     
       
     
-- **Niiiko Gems (Hard Currency):** Earned via achievements or bought via IAP; used for special gacha pulls and premium boosters.
+- **2: EXP [Main Menu Only]:** Used exclusively in the Main Menu to unlock new cats / cat-girls in the Niiiko Lab Roster. Earned by clearing stages, completing daily missions, and fulfilling milestones.
     
       
     
+- **3: Energy [Main Menu Only]:** Used exclusively in the Main Menu to enter battles (`10 Energy` per battle attempt). Automatically regenerates over time (`1 Energy` every `2.5 minutes`, cap `100`).
 
 ### 6.2 Ad Placements (Hybrid Monetization)
 
@@ -176,11 +210,11 @@ To validate the game quickly, Chapter 1 launches with 15 focused stages across 3
 ├──────────────────────────────┬──────────────────────────────┤
 │ Rewarded Video               │ Interstitial Ads             │
 ├──────────────────────────────┼──────────────────────────────┤
-│ • Double Post-Battle Coins   │ • Shown once every 3-4       │
+│ • Double Post-Battle EXP     │ • Shown once every 3-4       │
 │ • Instant Energy Refill      │   completed/failed matches.  │
 │ • Free Daily Unit Gacha Pull │ • Skippable after 5 seconds. │
 │ • Emergency Mid-Battle Cannon│ • Disabled permanently via   │
-│   Recharge (1x per match)    │   any IAP purchase.          │
+│   Boost (1x per match)       │   any IAP purchase.          │
 └──────────────────────────────┴──────────────────────────────┘
 ```
 
@@ -212,16 +246,24 @@ To validate the game quickly, Chapter 1 launches with 15 focused stages across 3
           
         
 
-### 7.2 UI/HUD Layout (Original & IP-Safe)
+### 7.2 UI/HUD Layout (Original & IP-Safe — Matching `Demo Map.png`)
 
 - To guarantee zero policy conflicts with existing titles:
     
       
-    - Deploy deck uses a bottom-right rounded grid panel rather than a flat bottom horizontal ribbon.
+    - Deploy deck uses a bottom-right rounded, cat-eared `Summoning Deck` panel with card slots rather than a flat bottom horizontal ribbon (as shown in `Demo Map.png`).
         
           
         
-    - Money counter and production level upgrade are grouped top-left in a modern circular laboratory gauge.
+    - Food and Coin counters are housed in a top-left cat-eared wooden plaque displaying available Food (Fish Cans) and Cat Coins.
+        
+          
+        
+    - Top-right cat-eared banner displays the active territory slab counter (e.g., `3/5` build slots), elapsed time, and a pocket-watch stage timer (`Tim 10m`).
+        
+          
+        
+    - Intermediate battlefield displays sequential grey foundation slabs with constructed buildings (Fish Cannery, Fortified Mound), forward rally spawn points, and glowing yellow `+` ghost indicators for unclaimed slabs.
         
           
         

@@ -230,8 +230,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "638f47e4201abd2c",
+  "active": "9faf3ed7ffdc6d71",
   "lastOpenFiles": [
+    "GameDesigner/Mobile game/Niiiko vs Human/watermarked_img_14643546511078821460.png",
+    "GameDesigner/Mobile game/Niiiko vs Human/Demo Map.png",
     "GameDesigner/Mobile game/Niiiko vs Human/Raw GDD.md",
     "GameDesigner/Mobile game/Niiiko vs Human/Niiiko vs Human GDD.md",
     "GameDesigner/Mobile game/Sample/SampleGDD.md",
@@ -272,7 +274,6 @@
     "WorldDesigner/World of human/World of human.md",
     "WorldDesigner/World of human/Characters",
     "WorldDesigner/World of human",
-    "Untitled.md",
-    "README.md"
+    "Untitled.md"
   ]
 }
